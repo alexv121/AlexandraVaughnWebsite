@@ -1,4 +1,4 @@
-var app = angular.module('aMod', ['ng-route']);
+/*var app = angular.module('aMod', ['ng-route']);
 
 app.config(function($routeProvider){
   $routeProvider.when('/', {
@@ -15,3 +15,5 @@ app.config(function($routeProvider){
     templateUrl: 'aboutme/aboutme.html',
     controller: 'aController'
   });
+
+});*/
