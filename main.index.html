@@ -1,8 +1,16 @@
 <!Doctype html>
 <html>
   <head>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
-    
+    <div id="content-container"></div>
+
+<script>
+  $(document).ready(function() {
+    // Loads 'content.html' straight into the container
+    $("#content-container").load("content.html"); 
+  });
+</script>
   </body>
 </html>
